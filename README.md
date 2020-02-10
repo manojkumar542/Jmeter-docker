@@ -9,12 +9,12 @@ the second is for this docker image itself
 
 
 # Build and Run docker jmeter images as below
-docker build -t <tag any name> .
+docker build -t tag any name .
 ex: docker build -t jmeter-docker:latest .
-docker run -it --name <any name> <image name>
+docker run -it --name any name image name
 docker run -it --name jmeterimage jmeter-docker:latest
 # To store the results into your local machine use volumes as below
 
-docker run -it --name <any name> -v <hostfolder>:<containerfolder> <image name>
+docker run -it --name any name -v hostfolder:containerfolder image name
   
 #ex: docker run -it --name jmeterimage -v ${pwd}/output:/results jmeter-docker:latest
