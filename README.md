@@ -15,7 +15,7 @@ ex: docker build -t jmeter-docker:latest .
 
 docker run -it --name any name image name
 
-docker run -it --name jmeterimage jmeter-docker:latest
+ex: docker run -it --name jmeterimage jmeter-docker:latest
 # To store the results into your local machine use volumes as below
 
 docker run -it --name any name -v hostfolder:containerfolder image name
