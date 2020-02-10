@@ -17,4 +17,4 @@ docker run -it --name jmeterimage jmeter-docker:latest
 
 docker run -it --name any name -v hostfolder:containerfolder image name
   
-#ex: docker run -it --name jmeterimage -v ${pwd}/output:/results jmeter-docker:latest
+# ex: docker run -it --name jmeterimage -v ${pwd}/output:/results jmeter-docker:latest
