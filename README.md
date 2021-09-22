@@ -22,3 +22,9 @@ ex: docker run -it --name jmeterimage jmeter-docker:latest
 docker run -it --name any name -v hostfolder:containerfolder image name
   
 # ex: docker run -it --name jmeterimage -v ${pwd}/output:/results jmeter-docker:latest
+
+
+For more details follow my blogs
+* https://performanceengineeringsite.wordpress.com/2021/01/22/easy-setup-to-dockerize-jmeter-monitoring-solution/
+* https://performanceengineeringsite.wordpress.com/2020/09/11/run-jmeter-in-docker-and-save-results-in-csv/
+* https://performanceengineeringsite.wordpress.com/2020/02/01/setup-jmeter-in-linux-docker-container-with-all-plugins/
